@@ -29,7 +29,7 @@ setdata(e.target.value)
 }
 function Bcd(){
 {
-if(data===''){
+if(data==''){
 
   alert("WRITE SOMETHING")
 }
@@ -62,7 +62,7 @@ setata(you)
  return(
 <>
 
-<div className='a'><img src='p.png' className='k'/>
+<div className='a'><img src='p.png' className='k' alt='k' />
 
 <input type='text'  placeholder='Add notes' onChange={Abc} value={data}/>
 <button className='b' onClick={Bcd}>+</button >
